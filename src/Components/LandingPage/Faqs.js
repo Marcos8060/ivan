@@ -1,13 +1,13 @@
 
 import React from 'react';
-import { Accordion, AccordionTab } from 'primereact/accordion';
+// import { Accordion, AccordionTab } from 'primereact/accordion';
 
 export default function Faqs() {
     return (
         <section className='w-7/12 mx-auto'>
             <h1 className='uppercase text-3xl font-bold text-center mb-8'>Faq</h1>
         <div className="card h-screen">
-            <Accordion activeIndex={0}>
+            {/* <Accordion activeIndex={0}>
                 <AccordionTab header="How do you clone a Webflow Template from the Showcase?">
                     <p className="m-0">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -40,7 +40,7 @@ export default function Faqs() {
                         Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus.
                     </p>
                 </AccordionTab>
-            </Accordion>
+            </Accordion> */}
         </div>
         </section>
     )
